@@ -15,14 +15,14 @@ You may want to check other features in ECMAScript 6 not covered in this tutoria
 
 If you found this tutorial useful, consider sharing it:
 
-<a href="https://twitter.com/share" class="twitter twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/es6-tutorial" data-text="ECMAScript 6 Tutorial with #Babel6 and #Webpack #ES2015 #ES6 #JavaScript">Tweet</a>
+<a href="https://twitter.com/share" class="twitter twitter-share-button" data-size="large" data-url="http://rajaraodv.github.io/es6-tutorial" data-text="ECMAScript 6 Tutorial with #Babel6 and #Webpack #ES2015 #ES6 #JavaScript">Tweet</a>
 
 Also, follow me on Twitter for updates and other tutorials:
 
 <a class="twitter twitter-follow-button"
-   href="https://twitter.com/ccoenraets"
+   href="https://twitter.com/rajaraodv"
    data-size="large">
-    Follow @ccoenraets</a>
+    Follow @rajaraodv</a>
 
 Thanks!
 

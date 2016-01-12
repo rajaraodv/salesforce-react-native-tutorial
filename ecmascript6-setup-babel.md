@@ -9,13 +9,13 @@ In this unit, you set up a development environment to develop and run an ECMAScr
 
 ## Step 1: Install the Sample Application
 
-1. Clone the [es6-tutorial](https://github.com/ccoenraets/es6-tutorial/) repository that includes an ECMAScript 5 version of the mortgage application we use in this tutorial:
+1. Clone the [es6-tutorial](https://github.com/rajaraodv/es6-tutorial/) repository that includes an ECMAScript 5 version of the mortgage application we use in this tutorial:
 
 	```
-	git clone https://github.com/ccoenraets/es6-tutorial
+	git clone https://github.com/rajaraodv/es6-tutorial
 	```
 
-	> Alternatively, you can just download and unzip [this file](https://github.com/ccoenraets/es6-tutorial/archive/master.zip) instead of cloning the repository.
+	> Alternatively, you can just download and unzip [this file](https://github.com/rajaraodv/es6-tutorial/archive/master.zip) instead of cloning the repository.
 
 1. Open `index.html` in your browser and click the **Calculate** button.
 
