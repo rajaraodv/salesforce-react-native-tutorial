@@ -14,7 +14,7 @@ You may want togo over the React Native documentation.
 
 If you found this tutorial useful, consider sharing it:
 
-<a href="https://twitter.com/share" class="twitter twitter-share-button" data-size="large" data-url="http://rajaraodv.github.io/salesforce-react-native/" data-text="Salesforce Mobile SDK: React Native tutorial http://rajaraodv.github.io/salesforce-react-native/">Tweet</a>
+<a href="https://twitter.com/share" class="twitter twitter-share-button" data-size="large" data-url="http://rajaraodv.github.io/salesforce-react-native-tutorial/" data-text="Salesforce Mobile SDK: React Native tutorial http://rajaraodv.github.io/salesforce-react-native-tutorial/">Tweet</a>
 
 Also, follow me on Twitter for updates and other tutorials:
 
