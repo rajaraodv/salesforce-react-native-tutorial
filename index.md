@@ -13,7 +13,7 @@ In this tutorial, you'll learn how to get started with React Native using Salesf
 - Adding Connected App
 - Updating JavaScript
 - Adding New React Native Component
-- Workflow Summary
+- React Native Development Workflow
 - Next Steps
 
 <div class="row" style="margin-top:40px;">
