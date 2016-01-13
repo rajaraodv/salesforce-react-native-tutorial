@@ -1,15 +1,13 @@
 ---
 layout: module
 ---
-# 3. Adding Connected App
-To enable your mobile app to connect to the Salesforce service, you’ll need a connected app. A connected app authorizes your mobile app to communicate securely with Force.com and access Force.com APIs on behalf of users via the industry-standard OAuth 2.0 protocol.
+# 4. Adding Connected App
+You may remember that when we generated the app using **forceios** we used the Connected App that came with sample template. In this unit, you'll create a new Salesforce Connected App in Salesforce, grab "App ID"(aka Consumer key) and Callback URL from there and update them in our sample app. 
 
-You may remember that when we generated the app using forceios we used the Connected App that came with sample template. In this unit, you'll create a new Salesforce Connected App and change the "App ID" and "Callback URL" to use the new Connected App. 
+## Step 1: Create A New Connected App
 
-## Step 1: Open The JavaScript Project
-
-1. In your Developer Edition organization, from Setup, enter Apps in the Quick Find box, then select **Apps**.
-2. Under **Create**, Click on **Apps** and scroll down to **Connected Apps**, then click **New** to bring up the **New Connected App** page.
+1. In your Developer Edition organization, from Setup, type **apps** in the Quick Find box.
+2. Under **Create**, Click on **Apps** and scroll down to **Connected Apps** section, then click **New** to bring up the **New Connected App** page.
 3. Under Basic Information, complete the form as follows.
 	- **Connected App Name**: ReactNativeSample
 	- **API Name**: accept the suggested value
@@ -55,6 +53,6 @@ App ID (Connected App's "Consumer Key") and the Callback URL is stored in the na
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
 <a href="mobile-sdk-react-native-running-forceios-app.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
-<a href="mobile-sdk-react-native-adding-connected-app.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
+<a href="mobile-sdk-react-native-updating-javascript.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>
 </div>

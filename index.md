@@ -7,9 +7,14 @@ In this tutorial, you'll learn how to get started with React Native using Salesf
 
 ## Topics
 
-- Setting up developer environment
-- Using forceios
+- Setting Up Developer Environment
+- Creating forceios App
+- Running forceios App
 - Adding Connected App
+- Updating JavaScript
+- Adding New React Native Component
+- Workflow Summary
+- Next Steps
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">

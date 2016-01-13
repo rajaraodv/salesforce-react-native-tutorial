@@ -1,7 +1,7 @@
 ---
 layout: module
 ---
-# 3. Updating JavaScript
+# 5. Updating JavaScript
 In this unit, you'll learn how to change the sample app's JavaScript.
 
 ## Step 1: Open The JavaScript Project
@@ -28,7 +28,7 @@ The JavaScript part of the app is located in `ReactNativeSample/js` folder. The 
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
-<a href="mobile-sdk-react-native-running-forceios-app.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
-<a href="mobile-sdk-react-native-adding-connected-app.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
+<a href="mobile-sdk-react-native-adding-connected-app.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+<a href="mobile-sdk-react-native-adding-a-new-custom-component.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>
 </div>

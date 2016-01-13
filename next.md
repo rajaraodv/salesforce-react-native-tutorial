@@ -6,16 +6,15 @@ layout: default
 
 Congratulations on completing this tutorial!
 
-You may want to check other features in ECMAScript 6 not covered in this tutorial. For example:
+You may want togo over the React Native documentation. 
 
-- [Constants](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
-- [Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
-- [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
-- [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+- <a href="https://facebook.github.io/react-native/docs/getting-started.html" target="_blank">React Native Docs</a>
+- <a href="https://facebook.github.io/react-native/docs/style.html#content" target="_blank">React Native Styles</a>
+- <a href="https://facebook.github.io/react-native/docs/native-modules-ios.html#content" target="_blank">Native Modules Guides</a>
 
 If you found this tutorial useful, consider sharing it:
 
-<a href="https://twitter.com/share" class="twitter twitter-share-button" data-size="large" data-url="http://rajaraodv.github.io/es6-tutorial" data-text="ECMAScript 6 Tutorial with #Babel6 and #Webpack #ES2015 #ES6 #JavaScript">Tweet</a>
+<a href="https://twitter.com/share" class="twitter twitter-share-button" data-size="large" data-url="http://rajaraodv.github.io/es6-tutorial" data-text="Salesforce Mobile SDK: React Native tutorial http://rajaraodv.github.io/salesforce-react-native/">Tweet</a>
 
 Also, follow me on Twitter for updates and other tutorials:
 
@@ -33,6 +32,6 @@ Thanks!
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
-<a href="ecmascript6-promises.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+<a href="mobile-sdk-react-native-workflow-summary.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
 </div>
 </div>

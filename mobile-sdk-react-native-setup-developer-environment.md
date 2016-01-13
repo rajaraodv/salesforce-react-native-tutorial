@@ -2,7 +2,7 @@
 layout: module
 ---
 # 1. Setup Developer Environment
-In this unit, you set up a developer environment to build React Native app using <a href="https://github.com/forcedotcom/SalesforceMobileSDK-iOS">Salesforce Mobile SDK</a>. You'll install quiet a lot of tools but that's just one time setup and after that, you'll be able to do all the fun stuff React Native has to offer.
+In this unit, you set up a developer environment to build React Native app using <a href="https://github.com/forcedotcom/SalesforceMobileSDK-iOS">Salesforce Mobile SDK</a>. You'll install quiet a lot of tools but the good news is that it's just one time setup. And after that, you'll be able to build complex Native apps using mainly React and JavaScript knowledge.
 
 ## Step 1: Install Xcode
 
