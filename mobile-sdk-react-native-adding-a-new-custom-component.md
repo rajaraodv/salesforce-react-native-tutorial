@@ -58,6 +58,9 @@ You'll create a new folder called `src` inside `ReactNativeSample/js` and then c
  
 ##Step 3: Use TotalCount Component
  1. Open `index.ios.js`
+ 
+  > Note: You can get the **final code** for index.ios.js from here: <a href="https://github.com/rajaraodv/salesforce-react-native-tutorial/blob/master/js/index.ios.js" target="_blank">index.ios.js</a>
+  
  2. Import the `total-count.js` component near the top of the file: 
  
  ```
@@ -115,9 +118,11 @@ You'll create a new folder called `src` inside `ReactNativeSample/js` and then c
       );
     },
 ```
+  > Note: You can get the **final code** for index.ios.js from here: <a href="https://github.com/rajaraodv/salesforce-react-native-tutorial/blob/master/js/index.ios.js" target="_blank">index.ios.js</a>
+  
 6. Switch to Simulator 
-8. Type `Command+R` to reload (Click on the simulator to make it active if it doesn't reload).
-9. You should see the new component reflected.
+7. Type `Command+R` to reload (Click on the simulator to make it active if it doesn't reload).
+8. You should see the new component reflected.
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
