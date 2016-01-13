@@ -33,7 +33,7 @@ Before we can run the app in Xcode, we need to first run React Native CLI. This 
 	<img src="images/sampleApp.png" style="height:500px" />
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
-<a href="mobile-sdk-react-native-running-forceios-app.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+<a href="mobile-sdk-react-native-create-forceios-app.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
 <a href="mobile-sdk-react-native-adding-connected-app.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>
 </div>

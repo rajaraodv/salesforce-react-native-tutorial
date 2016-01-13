@@ -38,7 +38,7 @@ Although you didn't node.js module to the app, if you do, here is the workflow:
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
-<a href="mobile-sdk-react-native-workflow-summary.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+<a href="mobile-sdk-react-native-adding-a-new-custom-component.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
 <a href="next.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>
 </div>
