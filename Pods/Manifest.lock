@@ -1,0 +1,115 @@
+PODS:
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - FMDB (2.6):
+    - FMDB/standard (= 2.6)
+  - FMDB/standard (2.6)
+  - React/ART (0.16.0-rc):
+    - React/Core
+  - React/Core (0.16.0-rc)
+  - React/RCTActionSheet (0.16.0-rc):
+    - React/Core
+  - React/RCTAdSupport (0.16.0-rc):
+    - React/Core
+  - React/RCTGeolocation (0.16.0-rc):
+    - React/Core
+  - React/RCTImage (0.16.0-rc):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.16.0-rc):
+    - React/Core
+  - React/RCTNetwork (0.16.0-rc):
+    - React/Core
+  - React/RCTPushNotification (0.16.0-rc):
+    - React/Core
+  - React/RCTSettings (0.16.0-rc):
+    - React/Core
+  - React/RCTText (0.16.0-rc):
+    - React/Core
+  - React/RCTVibration (0.16.0-rc):
+    - React/Core
+  - React/RCTWebSocket (0.16.0-rc):
+    - React/Core
+  - SalesforceNetwork (4.0.0):
+    - SalesforceNetwork/SalesforceNetwork (= 4.0.0)
+  - SalesforceNetwork/SalesforceNetwork (4.0.0):
+    - SalesforceSDKCore
+  - SalesforceReact (4.0.0):
+    - SalesforceReact/SalesforceReact (= 4.0.0)
+  - SalesforceReact/SalesforceReact (4.0.0):
+    - SmartSync
+  - SalesforceRestAPI (4.0.0):
+    - SalesforceRestAPI/SalesforceRestAPI (= 4.0.0)
+  - SalesforceRestAPI/SalesforceRestAPI (4.0.0):
+    - SalesforceNetwork
+  - SalesforceSDKCore (4.0.0):
+    - SalesforceSDKCore/SalesforceSDKCore (= 4.0.0)
+  - SalesforceSDKCore/SalesforceSDKCore (4.0.0):
+    - CocoaLumberjack (~> 2.2.0)
+    - SalesforceSDKCore/SalesforceSDKCore/arc (= 4.0.0)
+    - SalesforceSDKCore/SalesforceSDKCore/base (= 4.0.0)
+    - SalesforceSDKCore/SalesforceSDKCore/no-arc (= 4.0.0)
+  - SalesforceSDKCore/SalesforceSDKCore/arc (4.0.0):
+    - CocoaLumberjack (~> 2.2.0)
+    - SalesforceSDKCore/SalesforceSDKCore/base
+    - SalesforceSDKCore/SalesforceSDKCore/no-arc
+  - SalesforceSDKCore/SalesforceSDKCore/base (4.0.0):
+    - CocoaLumberjack (~> 2.2.0)
+  - SalesforceSDKCore/SalesforceSDKCore/no-arc (4.0.0):
+    - CocoaLumberjack (~> 2.2.0)
+    - SalesforceSDKCore/SalesforceSDKCore/base
+  - SmartStore (4.0.0):
+    - SmartStore/SmartStore (= 4.0.0)
+  - SmartStore/SmartStore (4.0.0):
+    - FMDB (~> 2.5)
+    - SalesforceSDKCore
+    - SmartStore/SQLCipher
+  - SmartStore/SQLCipher (4.0.0)
+  - SmartSync (4.0.0):
+    - SmartSync/SmartSync (= 4.0.0)
+  - SmartSync/SmartSync (4.0.0):
+    - SalesforceRestAPI
+    - SmartStore
+
+DEPENDENCIES:
+  - React/ART (from `./node_modules/react-native`)
+  - React/RCTActionSheet (from `./node_modules/react-native`)
+  - React/RCTAdSupport (from `./node_modules/react-native`)
+  - React/RCTGeolocation (from `./node_modules/react-native`)
+  - React/RCTImage (from `./node_modules/react-native`)
+  - React/RCTLinkingIOS (from `./node_modules/react-native`)
+  - React/RCTNetwork (from `./node_modules/react-native`)
+  - React/RCTPushNotification (from `./node_modules/react-native`)
+  - React/RCTSettings (from `./node_modules/react-native`)
+  - React/RCTText (from `./node_modules/react-native`)
+  - React/RCTVibration (from `./node_modules/react-native`)
+  - React/RCTWebSocket (from `./node_modules/react-native`)
+  - SalesforceNetwork
+  - SalesforceReact
+  - SalesforceRestAPI
+  - SalesforceSDKCore
+  - SmartStore
+  - SmartSync
+
+EXTERNAL SOURCES:
+  React:
+    :path: ./node_modules/react-native
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
+  React: a30bdc1d42978b69708ac416e59b24b5f67900b6
+  SalesforceNetwork: 83ad804e646bd30d4716cfebb8b147c3c74500d8
+  SalesforceReact: 46cb1dcf6631c481bbe2b6faa3f802bd84c03c8a
+  SalesforceRestAPI: 890f6800bdd40f8ea2579098515b21ec47c3494b
+  SalesforceSDKCore: a37bfee545f6d7a06c5cec9fe257b5b82d52446f
+  SmartStore: 5f8dffff630fec6d009fbc9890c3dd618b0e3d93
+  SmartSync: 08ccfb7718ba086e78068baa13cbcdc081c05bb3
+
+COCOAPODS: 0.39.0

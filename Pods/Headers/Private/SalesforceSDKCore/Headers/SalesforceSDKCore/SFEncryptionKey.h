@@ -1,0 +1,1 @@
+../../../../../SalesforceSDKCore/libs/SalesforceSDKCore/SalesforceSDKCore/Classes/Security/SFEncryptionKey.h

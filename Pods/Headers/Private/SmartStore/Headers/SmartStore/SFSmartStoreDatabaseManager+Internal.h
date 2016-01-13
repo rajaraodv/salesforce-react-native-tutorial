@@ -1,0 +1,1 @@
+../../../../../SmartStore/libs/SmartStore/SmartStore/Classes/SFSmartStoreDatabaseManager+Internal.h

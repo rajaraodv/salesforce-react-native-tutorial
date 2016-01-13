@@ -1,0 +1,1 @@
+../../../../../SmartSync/libs/SmartSync/SmartSync/Classes/Model/SFObjectTypeLayout.h

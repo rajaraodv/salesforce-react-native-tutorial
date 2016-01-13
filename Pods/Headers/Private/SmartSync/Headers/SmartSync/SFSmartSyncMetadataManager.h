@@ -1,0 +1,1 @@
+../../../../../SmartSync/libs/SmartSync/SmartSync/Classes/Manager/SFSmartSyncMetadataManager.h

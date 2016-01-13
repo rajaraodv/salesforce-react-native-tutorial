@@ -1,0 +1,4 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/SalesforceReact" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CocoaLumberjack" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/React" "${PODS_ROOT}/Headers/Public/SalesforceNetwork" "${PODS_ROOT}/Headers/Public/SalesforceReact" "${PODS_ROOT}/Headers/Public/SalesforceRestAPI" "${PODS_ROOT}/Headers/Public/SalesforceSDKCore" "${PODS_ROOT}/Headers/Public/SmartStore" "${PODS_ROOT}/Headers/Public/SmartSync" ${PODS_ROOT}/Headers/Public/SalesforceReact/Headers
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES
