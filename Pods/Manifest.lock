@@ -7,9 +7,10 @@ PODS:
     - CocoaLumberjack/Core
   - CocoaLumberjack/Extensions (2.2.0):
     - CocoaLumberjack/Default
-  - FMDB (2.6):
-    - FMDB/standard (= 2.6)
-  - FMDB/standard (2.6)
+  - FMDB (4.0.2):
+    - FMDB/FMDB (= 4.0.2)
+  - FMDB/FMDB (4.0.2):
+    - SQLCipher/fts (~> 3.3.1)
   - React/ART (0.16.0-rc):
     - React/Core
   - React/Core (0.16.0-rc)
@@ -36,48 +37,52 @@ PODS:
     - React/Core
   - React/RCTWebSocket (0.16.0-rc):
     - React/Core
-  - SalesforceNetwork (4.0.0):
-    - SalesforceNetwork/SalesforceNetwork (= 4.0.0)
-  - SalesforceNetwork/SalesforceNetwork (4.0.0):
+  - SalesforceNetwork (4.0.2):
+    - SalesforceNetwork/SalesforceNetwork (= 4.0.2)
+  - SalesforceNetwork/SalesforceNetwork (4.0.2):
     - SalesforceSDKCore
-  - SalesforceReact (4.0.0):
-    - SalesforceReact/SalesforceReact (= 4.0.0)
-  - SalesforceReact/SalesforceReact (4.0.0):
+  - SalesforceReact (4.0.2):
+    - SalesforceReact/SalesforceReact (= 4.0.2)
+  - SalesforceReact/SalesforceReact (4.0.2):
     - SmartSync
-  - SalesforceRestAPI (4.0.0):
-    - SalesforceRestAPI/SalesforceRestAPI (= 4.0.0)
-  - SalesforceRestAPI/SalesforceRestAPI (4.0.0):
+  - SalesforceRestAPI (4.0.2):
+    - SalesforceRestAPI/SalesforceRestAPI (= 4.0.2)
+  - SalesforceRestAPI/SalesforceRestAPI (4.0.2):
     - SalesforceNetwork
-  - SalesforceSDKCore (4.0.0):
-    - SalesforceSDKCore/SalesforceSDKCore (= 4.0.0)
-  - SalesforceSDKCore/SalesforceSDKCore (4.0.0):
+    - SalesforceSDKCore
+  - SalesforceSDKCore (4.0.2):
+    - SalesforceSDKCore/SalesforceSDKCore (= 4.0.2)
+  - SalesforceSDKCore/SalesforceSDKCore (4.0.2):
     - CocoaLumberjack (~> 2.2.0)
-    - SalesforceSDKCore/SalesforceSDKCore/arc (= 4.0.0)
-    - SalesforceSDKCore/SalesforceSDKCore/base (= 4.0.0)
-    - SalesforceSDKCore/SalesforceSDKCore/no-arc (= 4.0.0)
-  - SalesforceSDKCore/SalesforceSDKCore/arc (4.0.0):
+    - SalesforceSDKCore/SalesforceSDKCore/arc (= 4.0.2)
+    - SalesforceSDKCore/SalesforceSDKCore/base (= 4.0.2)
+    - SalesforceSDKCore/SalesforceSDKCore/no-arc (= 4.0.2)
+  - SalesforceSDKCore/SalesforceSDKCore/arc (4.0.2):
     - CocoaLumberjack (~> 2.2.0)
     - SalesforceSDKCore/SalesforceSDKCore/base
     - SalesforceSDKCore/SalesforceSDKCore/no-arc
-  - SalesforceSDKCore/SalesforceSDKCore/base (4.0.0):
+  - SalesforceSDKCore/SalesforceSDKCore/base (4.0.2):
     - CocoaLumberjack (~> 2.2.0)
-  - SalesforceSDKCore/SalesforceSDKCore/no-arc (4.0.0):
+  - SalesforceSDKCore/SalesforceSDKCore/no-arc (4.0.2):
     - CocoaLumberjack (~> 2.2.0)
     - SalesforceSDKCore/SalesforceSDKCore/base
-  - SmartStore (4.0.0):
-    - SmartStore/SmartStore (= 4.0.0)
-  - SmartStore/SmartStore (4.0.0):
-    - FMDB (~> 2.5)
+  - SmartStore (4.0.2):
+    - SmartStore/SmartStore (= 4.0.2)
+  - SmartStore/SmartStore (4.0.2):
+    - FMDB
     - SalesforceSDKCore
-    - SmartStore/SQLCipher
-  - SmartStore/SQLCipher (4.0.0)
-  - SmartSync (4.0.0):
-    - SmartSync/SmartSync (= 4.0.0)
-  - SmartSync/SmartSync (4.0.0):
+  - SmartSync (4.0.2):
+    - SmartSync/SmartSync (= 4.0.2)
+  - SmartSync/SmartSync (4.0.2):
     - SalesforceRestAPI
+    - SalesforceSDKCore
     - SmartStore
+  - SQLCipher/common (3.3.1)
+  - SQLCipher/fts (3.3.1):
+    - SQLCipher/common
 
 DEPENDENCIES:
+  - FMDB
   - React/ART (from `./node_modules/react-native`)
   - React/RCTActionSheet (from `./node_modules/react-native`)
   - React/RCTAdSupport (from `./node_modules/react-native`)
@@ -103,13 +108,14 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
-  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
+  FMDB: 640eb2d49ac1e6e594a1b103d5354ec6474723d4
   React: a30bdc1d42978b69708ac416e59b24b5f67900b6
-  SalesforceNetwork: 83ad804e646bd30d4716cfebb8b147c3c74500d8
-  SalesforceReact: 46cb1dcf6631c481bbe2b6faa3f802bd84c03c8a
-  SalesforceRestAPI: 890f6800bdd40f8ea2579098515b21ec47c3494b
-  SalesforceSDKCore: a37bfee545f6d7a06c5cec9fe257b5b82d52446f
-  SmartStore: 5f8dffff630fec6d009fbc9890c3dd618b0e3d93
-  SmartSync: 08ccfb7718ba086e78068baa13cbcdc081c05bb3
+  SalesforceNetwork: 7ed7bdc862f4e7837eb4d61b568d919f512b4ab8
+  SalesforceReact: 2631fce8273494e95fa195ad837c4e660dac3e3e
+  SalesforceRestAPI: 0749634345bd3e80c14eade7e4dbfebee61c9a59
+  SalesforceSDKCore: 31ed2ed485a043f66ca5813a5c5421cfb766a0f1
+  SmartStore: f41c5b2a192ae1b9b5edc50870ff761d797eb3d5
+  SmartSync: 6be7bac03175311cc7a72ec91d307fe5243c0ab5
+  SQLCipher: d490d2effe735895d2204d25a154b1e722278421
 
 COCOAPODS: 0.39.0

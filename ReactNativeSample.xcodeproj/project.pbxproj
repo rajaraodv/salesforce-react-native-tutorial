@@ -117,7 +117,7 @@
 				4F8D5E9A1B6C0568005E64D4 /* Frameworks */,
 				4F8D5E9B1B6C0568005E64D4 /* Resources */,
 				E57672B616CE5ACD1EACF7C8 /* Copy Pods Resources */,
-				5D086667A38E333699E242CC /* Embed Pods Frameworks */,
+				F6D41832363E5B09DFBD82AA /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,21 +187,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		5D086667A38E333699E242CC /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactNativeSample/Pods-ReactNativeSample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E57672B616CE5ACD1EACF7C8 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,6 +200,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactNativeSample/Pods-ReactNativeSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6D41832363E5B09DFBD82AA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactNativeSample/Pods-ReactNativeSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

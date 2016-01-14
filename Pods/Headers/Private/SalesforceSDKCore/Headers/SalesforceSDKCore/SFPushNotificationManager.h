@@ -1,1 +1,0 @@
-../../../../../SalesforceSDKCore/libs/SalesforceSDKCore/SalesforceSDKCore/Classes/PushNotification/SFPushNotificationManager.h

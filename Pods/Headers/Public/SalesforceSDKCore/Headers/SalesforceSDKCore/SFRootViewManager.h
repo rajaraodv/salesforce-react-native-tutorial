@@ -1,1 +1,0 @@
-../../../../../SalesforceSDKCore/libs/SalesforceSDKCore/SalesforceSDKCore/Classes/Util/SFRootViewManager.h

@@ -824,7 +824,7 @@ NSString *const SOUP_LAST_MODIFIED_DATE = @"_soupLastModifiedDate";
 }
 
 
-- (NSString *)tableNameBySoupId:(long)soupId {
+- (NSString *)tableNameBySoupId:(sqlite3_int64)soupId {
     return [NSString stringWithFormat:@"TABLE_%lld", soupId];
 }
 

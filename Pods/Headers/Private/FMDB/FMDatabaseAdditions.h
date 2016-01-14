@@ -1,1 +1,1 @@
-../../../FMDB/src/fmdb/FMDatabaseAdditions.h
+../../../FMDB/external/fmdb/src/fmdb/FMDatabaseAdditions.h

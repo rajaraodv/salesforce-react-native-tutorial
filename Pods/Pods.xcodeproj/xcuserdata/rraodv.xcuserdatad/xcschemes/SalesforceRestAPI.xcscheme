@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '69BA5CFAEEFB7D49F729377B'
+               BlueprintIdentifier = 'E3ADF4FDFE195532316A6C69'
                BlueprintName = 'SalesforceRestAPI'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libSalesforceRestAPI.a'>

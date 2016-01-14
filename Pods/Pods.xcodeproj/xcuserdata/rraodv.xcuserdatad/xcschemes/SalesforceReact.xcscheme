@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '961BD328A043F8DB713372CD'
+               BlueprintIdentifier = '21A17653DA771B8E9AAA3869'
                BlueprintName = 'SalesforceReact'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libSalesforceReact.a'>

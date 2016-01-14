@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4718D78318C20E263DDAF21E'
+               BlueprintIdentifier = '7F7D8C1C256FC90752CF6EAA'
                BlueprintName = 'SalesforceSDKCore-Settings'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Settings.bundle'>

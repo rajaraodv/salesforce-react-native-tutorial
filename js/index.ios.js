@@ -27,6 +27,8 @@
 'use strict';
 
 var React = require('react-native');
+var TotalCount = require('./src/total-count.js');
+
 var {
     AppRegistry,
     StyleSheet,
@@ -37,7 +39,6 @@ var {
     NavigatorIOS
 } = React;
 var forceClient = require('./react.force.net.js');
-var TotalCount = require('./src/total-count.js')
 
 var App = React.createClass({
     render: function() {
@@ -52,8 +53,6 @@ var App = React.createClass({
         );
     }
 });
-
-
 
 var UserList = React.createClass({
     getInitialState: function() {
@@ -95,7 +94,7 @@ var UserList = React.createClass({
             <ListView
               dataSource={this.state.dataSource}
               renderRow={this.renderRow} />
-              <TotalCount count={this.state.count}/>
+            <TotalCount count={this.state.count}/>
           </View>
       );
     },
@@ -119,7 +118,7 @@ var styles = StyleSheet.create({
         flex: 1,
         backgroundColor: 'white',
     },
-    header: {
+    header: { 
         height: 50,
         alignItems:'center'
     },

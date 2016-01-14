@@ -1,1 +1,0 @@
-../../../../../SalesforceNetwork/libs/SalesforceNetwork/SalesforceNetwork/SalesforceNetwork/Classes/Utilities/ValueTransformers/CSFJPEGImageValueTransformer.h

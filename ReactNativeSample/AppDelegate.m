@@ -33,8 +33,8 @@
 #import <SmartStore/SalesforceSDKManagerWithSmartStore.h>
 
 // Fill these in when creating a new Connected Application on Force.com
-static NSString * const RemoteAccessConsumerKey = @"3MVG9A2kN3Bn17huxQ_nFw2X9Uo37AD3WgVErb0jZVL48r3qQn3kHEP6CFARS30_wdOKIhx_snixVGHtmBIaO";
-static NSString * const OAuthRedirectURI        = @"reactnativesample://auth/success";
+static NSString * const RemoteAccessConsumerKey = @"3MVG9Iu66FKeHhINkB1l7xt7kR8czFcCTUhgoA8Ol2Ltf1eYHOU4SqQRSEitYFDUpqRWcoQ2.dBv_a1Dyu5xa";
+static NSString * const OAuthRedirectURI        = @"testsfdc:///mobilesdk/detect/oauth/done";
 
 @implementation AppDelegate
 
